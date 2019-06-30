@@ -21,7 +21,7 @@ public class ReadWriteExcelFile {
 	
 	public static void readXLSFile() throws IOException
 	{
-		InputStream ExcelFileToRead = new FileInputStream("/home/gangadhar/Documents/rehan/abc.xlsx");
+		InputStream ExcelFileToRead = new FileInputStream("/home/rehan/Documents/rehan/abc.xlsx");
 		HSSFWorkbook wb = new HSSFWorkbook(ExcelFileToRead);
 
 		HSSFSheet sheet=wb.getSheetAt(0);
@@ -59,7 +59,7 @@ public class ReadWriteExcelFile {
 	
 	public static void writeXLSFile() throws IOException {
 		
-		String excelFileName = "/home/gangadhar/Documents/rehan/abc.xlsx";//name of excel file
+		String excelFileName = "/home/rehan/Documents/rehan/abc.xlsx";//name of excel file
 
 		String sheetName = "Sheet1";//name of sheet
 
@@ -90,7 +90,7 @@ public class ReadWriteExcelFile {
 	
 	public static void readXLSXFile() throws IOException
 	{
-		InputStream ExcelFileToRead = new FileInputStream("/home/gangadhar/Documents/rehan/abc.xlsx");
+		InputStream ExcelFileToRead = new FileInputStream("/home/rehan/Documents/rehan/abc.xlsx");
 		XSSFWorkbook  wb = new XSSFWorkbook(ExcelFileToRead);
 		
 		XSSFWorkbook test = new XSSFWorkbook(); 
@@ -143,7 +143,7 @@ public class ReadWriteExcelFile {
 	
 	public static void writeXLSXFile() throws IOException {
 		
-		String excelFileName = "/home/gangadhar/Documents/rehan/abc.xlsx";//name of excel file
+		String excelFileName = "/home/rehan/Documents/rehan/abc.xlsx";//name of excel file
 
 		String sheetName = "Sheet1";//name of sheet
 
