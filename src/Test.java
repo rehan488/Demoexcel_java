@@ -35,7 +35,7 @@ public class Test {
 				String pwd=wb.getSheetAt(0).getRow(i).getCell(3).toString();
 				password.add(pwd.replaceFirst(".0",""));
 			}
-			
+			System.out.println("Test");
 			System.out.println(usrname+ "	"+password);
 
 		} catch (IOException e) {
